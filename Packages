@@ -4,6 +4,7 @@ Version: 1.0
 Section: System
 Maintainer: BlackWings
 Depends: firmwave (>=10), openssl
+Conflicts: openssh
 Filename: ./com.blackwingsvn.dropbeariphone5_1.0_iphoneos-arm.deb
 Size: 1658750
 MD5sum: 541fd65ce3338ca02ec5daf4651f1784
@@ -12,4 +13,49 @@ Description: SSH, SCP, SFTP for iPhone 5 iOS 10.3.3
 Name: SSH, SCP, SFTP for iPhone 5 iOS 10.3.3
 Author: BlackWings
 Depiction: https://blackwingsvn.github.io/cydia/description.html?id=com.blackwingsvn.dropbeariphone5
+
+Package: com.unlimapps.uamediaexporthelper
+Name: uamediaexporthelper
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=uamediaexporthelperDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=uamediaexporthelperDp
+Author: UnlimApps Inc. <support@unlimapps.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Description: media import function helper library
+Depends: firmware (>= 7.0), com.ouraigua.jodebox, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.jodeboxlib
+Section: Development
+Version: 1.0r-15
+Architecture: iphoneos-arm
+MD5sum: 27863bed3c825a74e5a27e05375af1ce
+Size: 20916
+Filename: ./com.unlimapps.uamediaexporthelper_1.0r-15_iphoneos-arm.deb
+
+Package: com.unlimapps.uasharedtools
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Author: UnlimApps Inc. <support@unlimapps.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: uasharedtools
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Section: Development
+Version: 2.2r-31
+Architecture: iphoneos-arm
+Description: shared tools for unlimapps tweaks
+Size: 22589710
+MD5sum: 1e2fb4062a017ec76335793236ac2a1f
+Filename: ./com.unlimapps.uasharedtools_2.2r-31_iphoneos-arm.deb
+
+Package: com.unlimapps.youtube
+Name: Youtube ++
+Version: 1.4r-32
+Architecture: iphoneos-arm
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Author: UnlimApps Inc <support@unlimapps.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.1r-61)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib
+Size: 3131992
+MD5sum: e223289ed3cd22e12fa41a7f58befa20
+Filename: ./com.unlimapps.youtube_1.4r-32_iphoneos-arm.deb
 
